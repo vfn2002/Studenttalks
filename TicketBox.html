@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="BoxStyle.css">
+</head>
+<body>
+
+<!-- Ændre 'id' nedenfor for at sætte hvilket event der er tale om -->
+<p class="event_id" id="1" style="display: none;"></p>
+
+<div id="container">
+    <div id="header">
+        <p id="title">GET TICKETS</p>
+        <div id="arrow-div">
+            <img src="right-arrow.png" id="arrow-right" class="arrow-icon">
+            <img src="" id="arrow-up">
+        </div>
+    </div>
+    <div id="content" style="display: none">
+        <form id="content-form" onSubmit="return false;">
+            <input type="text" placeholder="Name" name="name" class="text-field" id="name-field"><br>
+            <input type="text" placeholder="Email" name="email" class="text-field" id="email-field"><br>
+            <div id="button-div">
+                <input type="submit" value="SEND ME MY TICKET" class="submit-button">
+            </div>
+        </form>
+        <div id="return_message" style="display: none">
+            <p id="message"></p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Jquery -->
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="BoxScript.js"></script>
+
+
+
+</body>
+</html>

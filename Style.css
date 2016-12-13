@@ -1,0 +1,272 @@
+html,body
+{
+    height:100%;
+    width:100%;
+}
+#no_videos_text{
+    font-size: 150%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+}
+#close-button{
+    height: 3%;
+    width: auto;
+}
+#close-bar{
+    background-color: black !important;
+    float: right;
+}
+
+#topics-ul{
+    line-height: 250%;
+}
+
+.video-title{
+}
+
+.description-container{
+    float: left;
+    width: 60%;
+    margin: 20px;
+}
+.video-title-view{
+    margin-top: 0;
+    text-align: left;
+}
+.video-description{
+    background-color: white;
+    line-height: 150%;
+}
+
+.youtube-container{
+    background-color: white;
+}
+
+.video-thumbnail{
+    width: 95%;
+}
+
+.thumbnail-container{
+    margin: 1%;
+    float: left;
+    width: 40%;
+}
+#videos-list{
+    height: 100%;
+}
+.video-title{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.video-details{
+    float: right;
+    width: 55%;
+    margin: 1%;
+}
+
+.video-container{
+    display: inline-block;
+    alignment: center;
+    width: 100%;
+}
+
+.video-container:hover{
+    border-radius: 2px;
+    border: 1px;
+    background-color: #efefef;
+}
+
+.video-list{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.vid-topics ul{
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+    margin-left: 15%;
+}
+
+.vid-topics li{
+    display: inline;
+    color: white;
+    padding: 5px;
+    font-size: 150%;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.vid-topics li:hover{
+    background-color: white;
+    color: black;
+}
+
+.selected-topic{
+    background-color: white;
+    color: black !important;
+}
+
+
+.vid-topics{
+    position: relative;
+    height: 150px;
+}
+
+.topic-container{
+
+}
+
+.content-left-wrap {
+    width: 100%!important;
+    padding-top: 0!important;
+}
+
+body {
+    background-color: #000;
+}
+
+.site-content {
+    background-color: #000;
+}
+
+.top_logo_image_overlay {
+    margin-top: -140px;
+}
+
+.event_info {
+    font-size:17px;
+    margin-top:0px;
+    margin-bottom: 15px;
+    line-height:175%;
+    text-align: center;
+    color: #555;
+}
+
+#facebook {
+    margin-top: 35px;
+}
+
+.top_button {
+    width: 100%;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.top_button:hover {
+    opacity: 0.6;
+}
+
+
+.button_text {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.event_bar {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.entry-header {
+    display: none !important;
+}
+
+.entry-content {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #000;
+}
+
+.header {
+    max-width: 1110px !important;
+    margin: auto;
+    display: block;
+}
+.navbar,
+.navbar .container {
+    max-width: 1110px !important;
+    background-color: #fff;
+}
+
+#main-nav {
+    position: relative!important;
+}
+
+p {
+    margin: 0!important;
+    line-height: 20px;
+}
+
+.speaker_container_wrapper {
+    padding: 0px !important;
+}
+
+.speaker_container {
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+.speaker_image {
+    display: block;
+    margin: auto;
+    width: 100%;
+    /*    margin:30px;  */
+}
+
+.speaker_name {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px !important;
+}
+
+.speak_title {
+    text-align: left !important;
+    font-size: 30px;
+    color: #333;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+}
+
+.speak_subtitle {
+    text-align: left !important;
+    font-size: 18px;
+    color: #333;
+    margin-top: 7px !important;
+    margin-bottom: 3px;
+}
+
+.speaker_text {
+    padding: 30px;
+}
+
+.speaker_text, .speaker_text p {
+    text-align: left !important;
+    font-size: 15px;
+    line-height: 150%;
+    color: #555;
+}
+
+.speaker_text p {
+    padding-bottom:11px;
+}
+
+.bottom_bar_item {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 60px;
+    text-align: center;
+}
